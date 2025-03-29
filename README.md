@@ -1,3 +1,8 @@
+# Démonstration
+
+[![Démonstration](https://img.youtube.com/vi/nRaXkv-ls-k/0.jpg)](https://youtu.be/nRaXkv-ls-k)
+
+
 # Documentation Technique – Clone de Twitter
 
 Ce projet est un clone simplifié de Twitter développé avec React, TypeScript et Vite, utilisant JSON Server (avec json-server-auth) pour simuler une API REST. Il permet l'authentification, la gestion des tweets (création, édition, suppression), le suivi d'utilisateurs (follow/unfollow) et le like des tweets.
