@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "email": "test@test.fr",
+      "password": "$2a$10$bJ3Za3syBEhB4Cs2os5ofeudHcMat1aHDLieSUKGlZTdOZBNYAssG",
+      "username": "@test",
+      "following": [
+        2,
+        3
+      ],
+      "id": 1
+    },
+    {
+      "email": "user2@test.fr",
+      "password": "$2a$10$39UK6.RDOu7azcZXfd5UEudr188apq71Waskdhup/li9AmefZ/78q",
+      "username": "@user2",
+      "following": [
+        1
+      ],
+      "id": 2
+    },
+    {
+      "email": "user@user.com",
+      "password": "$2a$10$4xGOffHWIKyPw5Emb40N3uqB9t5KF569xqgP26GOwGrF.LdVyPaO2",
+      "username": "@user3",
+      "following": [
+        1,
+        2
+      ],
+      "id": 3
+    }
+  ],
+  "tweets": [
+    {
+      "content": "Hello",
+      "authorId": 1,
+      "authorUsername": "@test",
+      "createdAt": "2025-03-29T15:54:15.474Z",
+      "id": 1,
+      "likedBy": [
+        2,
+        1
+      ]
+    },
+    {
+      "content": "What's up",
+      "authorId": 1,
+      "authorUsername": "@test",
+      "createdAt": "2025-03-29T15:54:21.797Z",
+      "id": 2,
+      "likedBy": [
+        2
+      ]
+    },
+    {
+      "content": "Aahooy",
+      "authorId": 2,
+      "authorUsername": "@user2",
+      "createdAt": "2025-03-29T16:02:04.503Z",
+      "id": 3,
+      "likedBy": [
+        2,
+        1,
+        3
+      ]
+    }
+  ]
+}

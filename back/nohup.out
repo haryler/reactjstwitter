@@ -1,0 +1,80 @@
+
+> back@1.0.0 start
+> npx json-server db.json -m ./node_modules/json-server-auth
+
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading ./node_modules/json-server-auth
+  Done
+
+  Resources
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+
+> back@1.0.0 start
+> npx json-server db.json -m ./node_modules/json-server-auth
+
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading ./node_modules/json-server-auth
+  Done
+
+  Resources
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+Some error occurred Error: listen EADDRINUSE: address already in use ::1:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1811:16)
+    at listenInCluster (node:net:1859:12)
+    at GetAddrInfoReqWrap.doListen [as callback] (node:net:2008:7)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:8) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::1',
+  port: 3000
+}
+
+> back@1.0.0 start
+> npx json-server db.json -m ./node_modules/json-server-auth -H 172.17.106.193
+
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Loading ./node_modules/json-server-auth
+  Done
+
+  Resources
+
+  Home
+  http://172.17.106.193:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Error, can't read from stdin
+  Creating a snapshot from the CLI won't be possible
+[0mGET /db [32m200[0m 3.496 ms - 2[0m
+[0mGET /__rules [33m404[0m 7.378 ms - 2[0m
+[0mGET /db [36m304[0m 0.986 ms - -[0m
+[0mGET /__rules [33m404[0m 0.559 ms - 2[0m
+[0mGET /db [36m304[0m 0.602 ms - -[0m
+[0mGET /__rules [33m404[0m 2.458 ms - 2[0m
+[0mGET /db [36m304[0m 0.454 ms - -[0m
+[0mGET /__rules [33m404[0m 2.190 ms - 2[0m
+[0mGET /db [36m304[0m 0.807 ms - -[0m
+[0mGET /__rules [33m404[0m 3.020 ms - 2[0m
+[0mGET /db [36m304[0m 1.198 ms - -[0m
+[0mGET /__rules [33m404[0m 3.479 ms - 2[0m
+[0mGET /db [36m304[0m 0.782 ms - -[0m
+[0mGET /__rules [33m404[0m 4.879 ms - 2[0m
